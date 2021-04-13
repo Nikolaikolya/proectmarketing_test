@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Project Testing Work</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <img class="header__logo" src="images/logo.png" width="191" height="21"
+                alt="Логотип компании Proektmarketing+1">
+        </header>
+
+        <main class="main">
+            <h1 class="main__tilte">Я &mdash; разработчик</h1>
+
+            <form class="main-from">
+                <section class="form-section personaly">
+                    <h2 class="form-section__title form-section__title--active">Расскажите о себе</h2>
+
+                    <div class="wrapper">
+                        <p class="form-section__text">Поля не являются обязательными, но помимо вашего имени, нам бы
+                            хотелось знать из какого вы города, сколько вам лет и как с вами связаться
+                        </p>
+
+                        <fieldset class="wrapper-form">
+                            <legend class="visually-hidden">Ваши данные</legend>
+
+                            <p class="personaly__wrapper-input personaly__wrapper-input--hide">
+                                <label class="label" for="hobby">Ваше хобби</label>
+                                <input class="input" type="text" id="hobby" placeholder="Имя" value="Программирование">
+                            </p>
+
+                            <p class="personaly__wrapper-input">
+                                <label class="label" for="name">Имя</label>
+                                <input class="input" type="text" id="name" placeholder="Имя" value="Николай Федотов">
+                            </p>
+
+                            <p class="personaly__wrapper-input">
+                                <label class="label" for="date-birth">Год рождения</label>
+                                <input class="input" type="text" id="date-birth" placeholder="Год рождения"
+                                    value="28.10.1991">
+                            </p>
+
+                            <p class="personaly__wrapper-input">
+                                <label class="label" for="city">Город</label>
+                                <input class="input" type="text" id="city" placeholder="Город" value="Красноярск">
+                            </p>
+
+                            <p class="personaly__wrapper-input">
+                                <label class="label" for="telegramm">Телеграм</label>
+                                <input class="input" type="text" id="telegramm" placeholder="Телеграм" value="@web_ap">
+                            </p>
+
+                            <p class="personaly__wrapper-input">
+                                <label class="label" for="email">Почта</label>
+                                <input class="input" type="email" id="email" placeholder="Почта"
+                                    value="fntraders@ya.ru">
+                            </p>
+                        </fieldset>
+                    </div>
+                </section>
+
+                <section class="form-section scills">
+                    <h2 class="form-section__title">Отметьте ваши навыки</h2>
+
+                    <div class="wrapper">
+                        <p class="form-section__text">Отметьте чекбоксами пункты, которые соответствуют вашим скиллам.
+                            Кстати, отсутствие опыта не
+                            означает, что у вас меньше шансов стать одним из наших товарищей. Это означает, что вы
+                            будете
+                            получать те задачи, с которыми гарантировано будете справляться.
+                        </p>
+
+                        <div class="wrapper-forms wrapper-forms--scills">
+                            <fieldset class="scills-group">
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <span class="check-box"></span>
+                                    БЭМ/OOCSS
+                                </label>
+
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <span class="check-box"></span>
+                                    Pug (Jade)
+                                </label>
+
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <span class="check-box"></span>
+                                    Stylus/LESS/SASS
+                                </label>
+
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <span class="check-box"></span>
+                                    Работаю с SVG
+                                </label>
+
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <span class="check-box"></span>
+                                    Верстаю семантично
+                                </label>
+
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <span class="check-box"></span>
+                                    Accessibility (A11Y)
+                                </label>
+
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <span class="check-box"></span>
+                                    ES2015/ES2016
+                                </label>
+                            </fieldset>
+
+                            <fieldset class="scills-group">
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <span class="check-box"></span>
+                                    Gulp/GRUNT
+                                </label>
+
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <span class="check-box"></span>
+                                    Webpack
+                                </label>
+
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox">
+                                    <span class="check-box"></span>
+                                    Дружу с WebGL
+                                </label>
+
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <span class="check-box"></span>
+                                    jQuery
+                                </label>
+
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox">
+                                    <span class="check-box"></span>
+                                    Знаю/изучаю Angular
+                                </label>
+
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <span class="check-box"></span>
+                                    Знаю/изучаю React
+                                </label>
+
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <span class="check-box"></span>
+                                    Знаю/изучаю Node.js
+                                </label>
+                            </fieldset>
+
+                            <fieldset class="scills-group">
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <span class="check-box"></span>
+                                    Использую Git
+                                </label>
+
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <span class="check-box"></span>
+                                    С глазомером всё ок
+                                </label>
+
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox">
+                                    <span class="check-box"></span>
+                                    Я ленивый(-ая)
+                                </label>
+
+                                <label class="label-checkbox">
+                                    <input class="checkbox" type="checkbox">
+                                    <span class="check-box"></span>
+                                    У меня хороший английский
+                                </label>
+                            </fieldset>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="form-section js-level">
+                    <h2 class="form-section__title scills__title--js">Уровень владения Javascript</h2>
+
+                    <div>
+                        <fieldset class="js-level__form">
+                            <input class="js-level__item" type="checkbox" name="js" id="js_1">
+
+                            <input class="js-level__item" type="checkbox" name="js" id="js_2">
+
+                            <input class="js-level__item" type="checkbox" name="js" id="js_3" checked>
+
+                            <input class="js-level__item" type="checkbox" name="js" id="js_4" checked>
+
+                            <div class="linear"></div>
+                        </fieldset>
+
+                        <div class="js-level__form">
+                            <label class="js-level__sup" for="js_1">Не владею</label>
+
+                            <label class="js-level__sup" for="js_2">Использую готовые
+                                решения</label>
+
+                            <label class="js-level__sup" for="js_3">Использую готовые
+                                решенияи умею их
+                                переделывать</label>
+
+                            <label class="js-level__sup" for="js_4">Пишу сложный JS
+                                с нуля</label>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="form-section about">
+                    <h2 class="form-section__title">Расскажите о себе словами</h2>
+
+                    <div class="wrapper">
+                        <p class="form-section__text">Напишите пару предложений, чем вас привлекла наша вакансия и чего
+                            вы ожидаете от работы в Proektmarketing. Кстати, будет здорово, если при нехватке места для
+                            текста строки будут добавляться автоматически.
+                        </p>
+                        <textarea class="about__fieldtext" type=""
+                            placeholder="Введите текст">Хочется набраться опыта. Т.к. желание невероятное! Заинтересовало условия труда!</textarea>
+                    </div>
+                </section>
+
+                <section class="form-section plans">
+                    <h2 class="form-section__title">Какие у вас планы на будущее</h2>
+
+                    <div class="wrapper">
+                        <p class="form-section__text">Этот ответ ни на что не повлияет. Не беда,
+                            если в будущем ваши планы поменяются.
+                        </p>
+
+                        <fieldset class="wrapper-plans">
+                            <div class="radio-wrapper">
+                                <div class="wrapper-plans__radio">
+                                    <p class="wrapper-plans__item">
+                                        <input class="radio" type="radio" id="layout" checked>
+                                        <label for="layout">Верстать</label>
+                                    </p>
+
+                                    <p class="wrapper-plans__item">
+                                        <input class="radio" type="radio" id="manager">
+                                        <label for="manager">Менеджерство</label>
+                                    </p>
+                                </div>
+
+                                <div class="wrapper-plans__radio">
+                                    <p class="wrapper-plans__item">
+                                        <input class="radio" type="radio" id="js" checked>
+                                        <label for="js">Прокачиваться в JS</label>
+                                    </p>
+
+                                    <p class="wrapper-plans__item">
+                                        <input class="radio" type="radio" id="ather">
+                                        <label for="ather">Другое (уйти в калиграфию, быть как Покрас Лампас)</label>
+                                    </p>
+                                </div>
+                            </div>
+                            <input class="button" type="submit" value="Отправить">
+
+                        </fieldset>
+
+                    </div>
+
+                </section>
+            </form>
+        </main>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
